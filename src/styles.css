@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.cursor-pointer { cursor: pointer; }
+.f-bold { font-weight: bold; }
+
+/* boostrap modal vertically align center  starts */
+.modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+  /* boostrap modal vertically align center  ends */

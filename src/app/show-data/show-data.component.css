@@ -1,0 +1,10 @@
+.showDetails { margin-top: 40px; }
+.showDetails h3 {
+    margin-bottom: 20px;
+}
+.inputStyle { 
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
